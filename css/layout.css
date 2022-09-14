@@ -15,44 +15,6 @@ body{
     height: 100%;
 }
 
-#alert-page>p{
-    font-size: 0;
-}
-
-@media(min-width: 550px) {
-    #alert-page{
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-
-        position: absolute;
-
-        width: 100%;
-        height: 100%;
-
-        padding-bottom: 30vh;
-
-        background: url("../resources/logo.png") rgb(255,223,36);
-
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 115px 115px;
-
-        z-index: 999;
-    }
-
-    #alert-page>p{
-        font-size: 1.3rem;
-
-        /* position: absolute;
-
-        left: 38%;
-        bottom: 24%; */
-
-        color: rgb(15,117,98);
-    }
-}
-
 header{
     grid-area: header;
 
@@ -122,4 +84,42 @@ nav{
 
 #message-container{
     display: flex;
+}
+
+#alert-page>p{
+    font-size: 0;
+}
+
+@media(min-width: 550px) {
+    #alert-page{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+
+        padding-bottom: 30vh;
+
+        background: url("../resources/logo.png") rgb(255,223,36);
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 115px 115px;
+
+        z-index: 999;
+    }
+
+    #alert-page>p{
+        font-size: 1.3rem;
+
+        /* position: absolute;
+
+        left: 38%;
+        bottom: 24%; */
+
+        color: rgb(15,117,98);
+    }
 }
