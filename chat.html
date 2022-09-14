@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>메가톡</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/layout.css">
+        <link rel="stylesheet" href="./css/elements.css">
+    </head>
+    <body id="chattingRoom">
+        <header>
+            <section class="phone-status-icons">
+                <p class="time">9:00</p>
+                <div>
+                    <img alt="network-strength" src="./resources/cellular.png">
+                    <img alt="wifi" src="./resources/wifi.png">
+                    <img alt="battery" src="./resources/battery.png">
+                </div>
+            </section>
+            <section class="utility-icons">
+                <a href="./chats.html">
+                    <img alt="add-friend" src="./resources/chevron-left-black.png">
+                </a>
+                <div>
+                    <h1>앨리스</h1>
+                </div>
+                <div>
+                    <img alt="search-button" src="./resources/search.png">
+                    <img alt="settings" src="./resources/hamburger.png">
+                </div>    
+            </section>
+        </header>
+        <main>
+            <section class="friends-profile">
+                <div class="chatting-container" >
+                    <img id="alice-profile" alt="alice-profile-image" src="./resources/avatar.png">
+                    <div class="chat">
+                        <h2>앨리스</h2>
+                        <p>
+                            오늘도 미라클 모닝 체크인 해야지? <br/>
+                            오늘도 미라클 모닝 체크인 해야지? <br/>
+                            오늘도 미라클 모닝!
+                        </p>
+                    </div>
+                    <p>
+                        오전 5:01
+                    </p>
+                </div>
+                <div class="chatting-container">
+                    <img id="alice-profile" alt="alice-profile-image" src="./resources/avatar.png">
+                    <div class="chat">
+                        <h2>앨리스</h2>
+                        <p>
+                            언제 일어났니?
+                        </p>
+                    </div>
+                    <p>
+                        오전 5:01
+                    </p>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <section>
+                <img alt="plus-icon" src="./resources/plus.png">
+                <form action="./chat.html">
+                    <div id="message-container">
+                        <input type="text" value="">
+                        <div>
+                            <img alt="emoji-icon" src="./resources/emoji.png">
+                            <button type="submit">
+                                <img alt="send-icon" src="./resources/enter.png">
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+        </aside>
+        <section id="alert-page"><p>스크린 크기를 줄여주세요</p></section>
+    </body>
+</html>
